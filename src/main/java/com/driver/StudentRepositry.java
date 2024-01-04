@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-
+1
 public class StudentRepositry {
 
     HashMap<String, Student> studentDb= new HashMap<>();
@@ -79,7 +79,6 @@ public class StudentRepositry {
     }
 
     public void deleteAllTeachers() {
-
         for(String k: studentTeacherDb.keySet()) {
             teacherDb.remove(k);
             List<String> al = studentTeacherDb.remove(k);
