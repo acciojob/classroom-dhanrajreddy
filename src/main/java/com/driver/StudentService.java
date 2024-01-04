@@ -7,8 +7,10 @@ import java.util.List;
 
 
 public class StudentService {
+    @Autowired
+    StudentRepositry studentRepositry;
 
-    StudentRepositry studentRepositry= new StudentRepositry();
+
 
     public  void addStudent(Student student) {
         studentRepositry.addStudent(student);
